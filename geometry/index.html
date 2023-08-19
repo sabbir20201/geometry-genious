@@ -9,6 +9,172 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    git init
+   
+
+<main>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- 1 -->
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="images/triangle.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Triangle</h2>
+              <p class="">Area (A) = 0.5 x b x h</p>
+              <p class="mb-3"> 
+
+               <input type="text" name="" id="triangle-base" class="w-16 border">
+               <span>cm</span>
+
+               <input type="text" name="" id="triangle-height" class="w-16 border">
+               <span>cm</span>
+
+            </p>
+            <p id="area" class="text-start">Area : <span id="triangle-area"></span> </p>
+              <div onclick="triangleBtn()" class="card-actions w-full">
+                <button class="btn btn-primary w-full">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="images/rectangle.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Triangle</h2>
+              <p class="">Area (A) = 0.5 x b x h</p>
+              <p class="mb-3"> 
+
+               <input type="text" name="" id="rectangle-base" class="w-16 border">
+               <span>cm</span>
+
+               <input type="text" name="" id="rectangle-height" class="w-16 border">
+               <span>cm</span>
+
+            </p>
+            <p id="area" class="text-start">Area : <span id="rectangle-area"></span> </p>
+              <div onclick="rectangleBtn()" class="card-actions w-full">
+                <button class="btn btn-primary w-full">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="images/parallelogram.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Parallelogram</h2>
+              <p class="">Area (A) = b x h</p>
+              <p class="mb-3"> 
+
+               <input type="text" name="" id="Parallelogram-base" class="w-16 border">
+               <span>cm</span>
+
+               <input type="text" name="" id="Parallelogram-height" class="w-16 border">
+               <span>cm</span>
+
+            </p>
+            <p class="text-start">Area : <span id="parallelogram-area"></span> </p>
+              <div onclick="parallelogramBtn()" class="card-actions w-full">
+                <button class="btn btn-primary w-full">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="images/rhombus.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Rhombus</h2>
+              <p class="">Area (A) = 0.5 x d<sub>1</sub> x d<sub>1</sub></p>
+              <p class="mb-3"> 
+        
+               <input type="text" name="" id="triangle-base" class="w-16 border">
+               <span>cm</span>
+        
+               <input type="text" name="" id="triangle-height" class="w-16 border">
+               <span>cm</span>
+        
+            </p>
+            <p id="area" class="text-start">Area : <span id="triangle-area"></span> </p>
+              <div onclick="triangleBtn()" class="card-actions w-full">
+                <button class="btn btn-primary w-full">Calculate</button>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+<!-- 2nd div  -->
+<!-- 1 -->
+<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+<!-- 1 -->
+  <div class="card bg-base-100 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="images/pentagon.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Pentagon</h2>
+      <p class="">Area (A) = 0.5 x d x d</p>
+      <p class="mb-3"> 
+
+       <input type="text" name="" id="triangle-base" class="w-16 border">
+       <span>cm</span>
+
+       <input type="text" name="" id="triangle-height" class="w-16 border">
+       <span>cm</span>
+
+    </p>
+    <p id="area" class="text-start">Area : <span id="triangle-area"></span> </p>
+      <div onclick="triangleBtn()" class="card-actions w-full">
+        <button class="btn btn-primary w-full">Calculate</button>
+      </div>
+    </div>
+  </div>
+  <!-- 2 -->
+  <div class="card bg-base-100 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="images/ellipse.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Ellipse</h2>
+      <p class="">Area (A) = 0.5 x b x h</p>
+      <p class="mb-3"> 
+
+       <input type="text" name="" id="triangle-base" class="w-16 border">
+       <span>cm</span>
+
+       <input type="text" name="" id="triangle-height" class="w-16 border">
+       <span>cm</span>
+
+    </p>
+    <p id="area" class="text-start">Area : <span id="triangle-area"></span> </p>
+      <div onclick="triangleBtn()" class="card-actions w-full">
+        <button class="btn btn-primary w-full">Calculate</button>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- 3 -->
+<div class="card bg-base-100 shadow-xl">
+  <h1 class="underline text-lg font-bold text-center mt-6">Area Calculation</h1>
+<div id="calculation-entry">
+
+</div>
+</div>
+
+</div>
+
+
+</main>
+
+
+
+<script src="js/index.js"></script>
 </body>
 </html>
